@@ -2,7 +2,7 @@ public class Main {
     public static void main(String[] args) {
         Cat coco = new Cat("coco", 14);
         Dog max = new Dog("max", 5, "Refik");
-        Rabbit snowWhite = new Rabbit("Gangy",12, "blue");
+        Rabbit snowWhite = new Rabbit("Gangy", 12, "blue");
         Toy robot = new Toy("Terminator");
 
         Toy car = new Toy("Lambo");
@@ -16,5 +16,6 @@ public class Main {
 
         for (Action friend : homeFriends) {
             friend.play();
+        }
     }
 }
